@@ -1,0 +1,33 @@
+# .NET build output
+bin/
+obj/
+out/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.user
+*.suo
+
+# macOS
+.DS_Store
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+
+# App settings (may contain secrets)
+appsettings.json
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Test results
+[Tt]est[Rr]esult*/
+coverage/
